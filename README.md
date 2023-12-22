@@ -25,3 +25,10 @@ A neural network(specifically, a feedforward neural network) is the result of pu
 Fig.4 is a diagram of a neural network. It has three “layers” of neurons. The input layer (x) is a vector of pixel values (0 for dark, 1 for light) in the hand-drawn number. The hidden layer (h) is a vector of logistic regression cells which each take all the elements of x as input. The output layer is a single logistic regression cell that takes all of the elements of the hidden layer h as input. In the figure on the left a single hidden neuron is highlighted. It’s only possible to draw so many arrows from x to h without it becoming too messy, so imagine that every hidden neuron has arrows from every x. Formally:
 
 <img width="600" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/3e554c0a-80e1-431e-94cb-9605b9e6710b">
+
+<img width="485" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/70e4c838-dd42-4140-9588-8e2f77afba2a">
+
+
+# IN-MEMORY MATRIX-VECTOR MULTIPLICATION
+
+We try to mimic the behavior of  
