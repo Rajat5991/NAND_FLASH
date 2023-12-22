@@ -5,10 +5,11 @@ Traditional computing systems Fig.1 typically store massive information on a mem
 
 # Why NAND FLASH ?
 
-DEEP neural networks (DNNs) contain multiple computation layers each performing a massive number of multiply-and-accumulate (MAC) operations between the input data and trained weights. The number of layers and parameters varies significantly depending on the specific DNN architecture, with state-of-the-art designs exceeding 100 million parameters as shown below.
+Deep Neural Networks (DNNs) consist of numerous computational layers, each conducting a substantial quantity of multiply-and-accumulate (MAC) operations involving input data and trained weights. The quantity of layers and parameters varies considerably based on the particular DNN architecture, with cutting-edge designs surpassing 100 million parameters, as demonstrated below.
 
-<img width="337" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/cf664315-d7c3-4269-a8f3-67e8249343f9">
+<img width="637" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/cf664315-d7c3-4269-a8f3-67e8249343f9">
 
+To transform In-Memory-Computing (ICM) into a feasible solution for upcoming Deep Neural Networks (DNNs) featuring hundreds of millions of parameters, it is crucial to construct the in-memory neural network array using a non-volatile memory technology capable of achieving exceptionally high density, cost-effectiveness, and easy manufacturability. NAND flash technology stands out as the primary contender that fulfills all these criteria.
 
 # Neural Network
 
