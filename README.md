@@ -11,3 +11,16 @@ is lower than the read voltage Vread, so the cell produces the current. However,
 <img width="420" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/0a755689-cdcb-4d2c-be54-f27d6da90160">
                                                            Fig.2 NAND_FLASH
 
+# Neural Network
+
+A neural network(specifically, a feedforward neural network) is the result of putting many layers of logistic regression functions together.
+
+<img width="211" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/65822495-f03d-4e16-8591-a7bdc4acc3b8">
+                                                          Fig.3 
+
+<img width="547" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/2dca5bf4-5024-483e-804f-b29a1975fdda">
+                                                         Fig.4
+                                                         
+Fig.4 is a diagram of a neural network that we will use. It has three “layers” of neurons. The input layer (x) is a vector of pixel values (0 for dark, 1 for light) in the hand-drawn number. The hidden layer (h) is a vector of logistic regression cells which each take all the elements of x as input. The output layer is a single logistic regression cell that takes all of the elements of the hidden layer h as input. In the figure on the left a single hidden neuron is highlighted. It’s only possible to draw so many arrows from x to h without it becoming too messy, so imagine that every hidden neuron has arrows from every x. Formally:
+
+<img width="500" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/3e554c0a-80e1-431e-94cb-9605b9e6710b">
