@@ -30,4 +30,7 @@ NAND flash array consists of multiple blocks, and each block consists of multipl
 
 # IN-MEMORY MATRIX-VECTOR MULTIPLICATION
 
-We propose to mimic the MAC(Multipy-Accumulate) operation of neural network through off-the-shelf NAND Flash. The string current in NAND flash is proportional to applied read voltage Vread and selected cell conductance G. Vread and the selected cell conductance are the activation and weight data in DNN, respectively. Then, the current from each string corresponds to the multiplication result of the weight and activation value. Many current values from different strings in the same page are summed up in a NAND flash array. The accumulated current becomes the accumulation result of the MAC operation.
+We suggest emulating the MAC(Multipy-Accumulate) operation of neural network through off-the-shelf NAND Flash. The string current in NAND flash is proportional to applied read voltage Vread and selected cell conductance G. Vread and the selected cell conductance are the activation and weight data in DNN, respectively. Then, the current from each string corresponds to the multiplication result of the weight and activation value. Many current values from different strings in the same page are summed up in a NAND flash array. The accumulated current becomes the accumulation result of the MAC operation.
+
+<img width="305" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/cc82624c-580e-4e0a-bf24-a5aac43a7f90">
+
