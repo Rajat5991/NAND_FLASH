@@ -3,6 +3,13 @@ Traditional computing systems Fig.1 typically store massive information on a mem
 
 <img width="549" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/09cc09e0-4196-4019-b842-506299999405">
 
+# Why NAND FLASH ?
+
+DEEP neural networks (DNNs) contain multiple computation layers each performing a massive number of multiply-and-accumulate (MAC) operations between the input data and trained weights. The number of layers and parameters varies significantly depending on the specific DNN architecture, with state-of-the-art designs exceeding 100 million parameters as shown below.
+
+<img width="337" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/cf664315-d7c3-4269-a8f3-67e8249343f9">
+
+
 # Neural Network
 
 A neural network(specifically, a feedforward neural network) is the result of putting many layers of logistic regression functions together.
