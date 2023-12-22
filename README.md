@@ -15,11 +15,11 @@ is lower than the read voltage Vread, so the cell produces the current. However,
 
 A neural network(specifically, a feedforward neural network) is the result of putting many layers of logistic regression functions together.
 
-<img width="647" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/65822495-f03d-4e16-8591-a7bdc4acc3b8">
-                                                          Fig.3 
+<img width="347" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/65822495-f03d-4e16-8591-a7bdc4acc3b8">
+                                              Fig.3 
 
 <img width="647" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/2dca5bf4-5024-483e-804f-b29a1975fdda">
-                                                         Fig.4
+                                              Fig.4
                                                          
 Fig.4 is a diagram of a neural network. It has three “layers” of neurons. The input layer (x) is a vector of pixel values (0 for dark, 1 for light) in the hand-drawn number. The hidden layer (h) is a vector of logistic regression cells which each take all the elements of x as input. The output layer is a single logistic regression cell that takes all of the elements of the hidden layer h as input. In the figure on the left a single hidden neuron is highlighted. It’s only possible to draw so many arrows from x to h without it becoming too messy, so imagine that every hidden neuron has arrows from every x. Formally:
 
