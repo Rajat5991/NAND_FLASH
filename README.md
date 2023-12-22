@@ -26,8 +26,7 @@ Fig.4 is a diagram of a neural network. It has three “layers” of neurons. Th
 
 <img width="600" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/3e554c0a-80e1-431e-94cb-9605b9e6710b">
 
-<img width="785" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/70e4c838-dd42-4140-9588-8e2f77afba2a">
-
+These equations introduce a few new pieces of notation. Let’s spell out what each term means. The parameters of the equations are all of the symbols θ. There are two groups of parameters:the weights for the logistic cells in the hidden unit (θ(h)) and weights for the output logistic cell (θ(yˆ)). These are collections of parameters. There is a value θ(h)i,j for every pair of input i and hidden unit j and there is a θ (yˆ)j for every hidden unit j. There are mx = |x| number of inputs and there are mh = |h| number of hidden units. Familiarize yourself with the notation. The math of neural networks is not as hard as the notation!
 
 # IN-MEMORY MATRIX-VECTOR MULTIPLICATION
 
