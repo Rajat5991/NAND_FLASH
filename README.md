@@ -42,4 +42,4 @@ We suggest emulating the MAC(Multipy-Accumulate) operation of neural network thr
 
 <img width="626" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/819ac0e7-60c1-4414-89da-96a2fcbddf76">
 
-Although the analog MAC operation is feasible in NAND flash, there are mainly two challenges that restrict the usage of the current-sum method on NAND flash. First, off-the-shelf NAND FLash doesnot have in-built ADC. Second, implementing the ADC requires a large area compared to the bit-line pitch. Therefore, it is essential to develop a new NAND Flash specifically designed for Deep Neural Network (DNN) applications.
+Although the analog MAC operation is feasible in NAND flash, there are mainly two challenges that restrict the usage of the current-sum method on NAND flash. First, off-the-shelf NAND FLash doesnot have in-built ADC for each string. Second, implementing the ADC requires a large area compared to the bit-line pitch. Therefore, it is essential to develop a new NAND Flash specifically designed for Deep Neural Network (DNN) applications.
