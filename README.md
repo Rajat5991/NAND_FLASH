@@ -30,8 +30,8 @@ NAND flash array consists of multiple blocks, and each block consists of multipl
 
 # IN-MEMORY MATRIX-VECTOR MULTIPLICATION
 
-We suggest emulating the MAC(Multipy-Accumulate) operation of neural network through off-the-shelf NAND Flash. The string current in NAND flash is proportional to applied read voltage Vread and selected cell conductance G. Vread and the selected cell conductance are the activation and weight data in DNN, respectively. Then, the current from each string corresponds to the multiplication result of the weight and activation value. Many current values from different strings in the same page are summed up in a NAND flash array. The accumulated current becomes the accumulation result of the MAC operation.
+We suggest emulating the MAC(Multipy-Accumulate) operation of neural network through off-the-shelf NAND Flash. The string current in NAND flash is proportional to applied read voltage Vread and selected cell conductance G. The conductance of the selected cell can be configured through NAND program operation. Vread and the selected cell conductance are the activation and weight data in DNN, respectively. Then, the current from each string corresponds to the multiplication result of the weight and activation value. Many current values from different strings in the same page are summed up in a NAND flash array. The accumulated current becomes the accumulation result of the MAC operation. This analog current value is converted to a digital value by ADC
 
 <img width="626" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/819ac0e7-60c1-4414-89da-96a2fcbddf76">
 
-
+Although the analog MAC operation is feasible in NAND flash, there are mainly two challenges that restrict the usage of the current-sum method on NAND flash. First, off-the-shelf NAND FLash doesnot have in-built ADC. Second, implementing the ADC requires a large area compared to the bit-line pitch. Therefore, it is essential to develop a new NAND Flash specifically designed for Deep Neural Network (DNN) applications.
