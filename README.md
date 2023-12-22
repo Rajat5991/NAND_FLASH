@@ -26,7 +26,7 @@ Fig.4 is a diagram of a neural network. It has three “layers” of neurons. Th
 
 <img width="600" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/3e554c0a-80e1-431e-94cb-9605b9e6710b">
 
-<img width="485" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/70e4c838-dd42-4140-9588-8e2f77afba2a">
+<img width="785" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/70e4c838-dd42-4140-9588-8e2f77afba2a">
 
 
 # IN-MEMORY MATRIX-VECTOR MULTIPLICATION
