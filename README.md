@@ -1,5 +1,9 @@
 # NAND_FLASH - A Potential Contender for DNN
-Traditional computing systems Fig.1 typically store massive information on a memory unit that is physically connected to the computational unit by a data bus. The continuous data movement between the processing and the memory units represents the main bottleneck due to the limited bandwidth, long latency, sequential data processing, and high energy consumption. To minimize the latency and energy overhead of conventional von Neumann computers, in-memory computing (IMC) aims at performing the computation within the memory.
+In conventional computing systems, extensive data is usually stored in a memory unit physically linked to the computational unit through a data bus. The persistent movement of data between processing and memory units serves as a significant bottleneck due to constrained bandwidth, prolonged latency, sequential data processing, and elevated energy consumption. To mitigate the latency and energy challenges posed by traditional von Neumann computers, in-memory computing (IMC) strives to execute computations directly within the NAND Flash memory.
+
+Researcher from the University of Massachusetts, Amherst, conducted a life cycle assessment on the training of various widely used large AI models. Their findings revealed that this process can release over 626,000 pounds of carbon dioxide equivalent, which is almost five times the total emissions produced over the lifespan of an average American car, encompassing the car's manufacturing phase.  
+
+IMC has been predominantly applied to hardware accelerators for Deep Neural Networks (DNNs), given that MVM constitutes the most computationally intensive task. A notable advantage of IMC lies in its capacity to perform MVM (Matrix-Vector Multiplication) in a single operation, simultaneously activating all rows and columns, a unique benefit not matched by alternative technologies.
 
 <img width="549" alt="image" src="https://github.com/Rajat5991/NAND_FLASH-For-In-Memory-Computing/assets/154459536/09cc09e0-4196-4019-b842-506299999405">
 
